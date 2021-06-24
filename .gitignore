@@ -1,0 +1,6 @@
+
+# in network dir
+network/.env
+network/docker-compose.yml
+network/config
+network/crypto-config
