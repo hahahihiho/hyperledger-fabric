@@ -17,4 +17,6 @@ rm -f ~/.hfc-key-store/*
 docker rm $(docker ps -aq)
 docker rmi $(docker images dev-* -q)
 
+docker network prune --force
+
 # Your system is now clean

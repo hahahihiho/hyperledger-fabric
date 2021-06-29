@@ -115,7 +115,7 @@ services:
     command: /bin/bash
     volumes:
         - /var/run/:/host/var/run/
-        - ./../chaincode/:/usr/code/chaincode
+        - ./../chaincode/:/opt/gopath/src/chaincode
         - ./crypto-config:/etc/hyperledger/fabric/crypto-config
         - ./config:/etc/hyperledger/configtx
     networks:
